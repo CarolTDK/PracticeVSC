@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(136, 39, 39);
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+form {
+  margin-bottom: 20px;
+}
+/* HACERLO IGUAL A REGISTRO */
+body {
+  width: 95%;
+  padding: 10px 10px;
+  .tituloRegistrarse {
+    font-size: 2rem;
+  }
+  form {
+    width: 100%;
+    text-align: center;
+
+    input:not(.check, .boton),
+    select {
+      width: 80%;
+      height: 35px;
+      font-size: 1rem;
+    }
+    .terminos {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 0.7rem;
+    }
+    .boton {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 70%;
+      padding: 0.8rem 0.8rem;
+      font-size: 0.8rem;
+    }
+    .ayuda {
+      text-align: left;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+form {
+  width: 100%;
+  padding: 40px;
+  input:not(.check, .boton),
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: 2px solid #9f3647;
+    background-color: #333333;
+    outline: none;
+    color: rgb(255, 255, 255);
+  }
+}
+body {
+  /*seccion de registrarse.html*/
+
+  background-color: rgb(42, 42, 42);
+  width: 30%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 1.2rem;
+  .tituloRegistrarse {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right top, #24242473, #24242473),
+    url("../assets/img/bg-register.jpg");
+  background-size: cover;
+  background-position: center;
+  header {
+    color: #ffffff;
+    height: 8vh;
+    padding: 30px;
+    .anclaLogo {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.2rem;
+      /*animacion hover*/
+      &:hover {
+        animation: tilt-n-move-shaking 0.25s infinite;
+      }
+    }
+  }
+}
